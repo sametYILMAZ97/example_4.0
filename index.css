@@ -1,0 +1,65 @@
+:root {
+    --c1: #006400 ;
+    --c2: #ff9c2a ;
+    --c3: #ff4025 ;
+    --c4: #3949ab ;
+    --c4: #efefef ;
+    --c5: #4078c0 ;
+    --c6: #6cc644 ;
+    --c7: #bd2c00 ;
+    --c8: #6e5494 ;
+    --c9: #fafafa ;
+    --c10: #f5f5f5 ;
+    --c11: #333 ;
+}
+    /* for use
+    color:  var(--c6) ; */
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    text-align: center;
+    background-color: var(--c11);
+    color: var(--c2);
+    
+}
+div {
+    border-style: solid;
+    border-color: var(--c1);
+    
+}
+
+h3{
+    margin-top: 5%;
+}
+
+#button1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: var(--c1);
+    color: var(--c2);
+    width: 75px;
+    height: 35px;
+    border: solid 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#button1:hover{
+    background-color: var(--c2);
+    color: var(--c1);
+    font-weight: bolder;
+}
+
+li:hover{
+    color: var(--c3);
+    font-weight: bolder;
+}
